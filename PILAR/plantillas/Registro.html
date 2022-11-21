@@ -1,0 +1,250 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="icon" type="image/jpg" href="/resources/Img/Favicon-pilar.ico"/>
+    <script defer src="Registro.js"></script>
+    <title>PILAR</title>
+</head>
+<body>
+    <header>
+        <div class="contenedor-logo">
+            <img src="/resources/Img/imagotipo.png" alt="">
+        </div>
+            
+            <div class="busquedad">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="Emprendimientos">
+            </div>
+    </header> 
+
+    <Section>
+        <p class="emprendedor"> DATOS DEL EMPREDEDOR</p>
+        <form action="contact.php" method="post">
+            <fieldset>
+                <div class="elem-group">
+                    <label for="id-selection">Tipo de Documento</label>
+                    <select id="id-selection" name="concerned_department" required>
+                        <option value="">Selecciona un tipo</option>
+                        <option value="Tarjeta_de_identidad">Tarjeta de identidad</option>
+                        <option value="Cedula">Cedula de Ciudadania</option>
+                        <option value="Extranjeria">Cedula de Extranjeria</option>
+                    </select>
+                </div>
+                <div class="elem-group">
+                    <label for="name">Nombres</label>
+                    <input type="text" id="name" name="visitor_name" placeholder="Ingrese su Nombre"
+                        pattern=[A-Z\sa-z]{3,20} required>
+                </div>
+                <div class="elem-group">
+                    <label for="date">Fecha de Nacimiento</label>
+                    <input type="date" name="fecha" id="fecha">
+                </div>
+                <div class="elem-group">
+                    <label for="Age">Edad</label>
+                    <input type="text" id="number_Age" name="visitor_age" placeholder="Ingrese su Edad"
+                        pattern=[A-Z\sa-z]{3,20} required>
+                </div>
+                <div class="elem-group">
+                    <label for="gender">Genero</label>
+                    <select id="gender" name="gender" required>
+                        <option value="">Selecciona un Genero</option>
+                        <option value="female">Femenino</option>
+                        <option value="male">Masculino</option>
+                        <option value="other">Otros</option>
+                    </select>
+                </div>            
+                <div class="elem-group">
+                    <label for="password">Contraseña</label>
+                    <input type="password" id="password" name="password" placeholder="Ingrese contraseña" required
+                        pattern=[A-Za-z0-9\s]{8,20}>
+                </div>
+            </fieldset>
+            <fieldset>
+                <div class="elem-group">
+                    <label for="number_id">Numero de Documento</label>
+                    <input type="text" id="number" name="visitor_number" placeholder="Ingrese su numero de documento"
+                        pattern=[A-Z\sa-z]{3,20} required>
+                </div>
+                <div class="elem-group">
+                    <label for="surname">Apellidos</label>
+                    <input type="text" id="Apellidos" name="visitor_surname" placeholder="Ingrese sus Apellidos"
+                        pattern=[A-Z\sa-z]{3,20} required>
+                </div>
+                <div class="elem-group">
+                    <label for="marital-status">Estado Civil</label>
+                    <select id="marital-status" name="marital-status" required>
+                        <option value="">Selecciona un Estado</option>
+                        <option value="single">Soltero</option>
+                        <option value="married">Casado</option>     
+                        <option value="divorced">Divorciado</option>
+                        <option value="widowed">Viudo</option>
+                        <option value="separated">Separado</option>
+                        <option value="unmarried_union">Unión Libre</option>
+                        <option value="other">Otro</option>
+                    </select>
+                </div>
+                <div class="elem-group">
+                    <label for="number">Numero de Celular</label>
+                    <input type="text" id="number_tel" name="visitor_numbertel" placeholder="Ingrese su numero de celular"
+                        pattern=[A-Z\sa-z]{3,20} required>
+                </div>
+                <div class="elem-group">
+                    <label for="email">Correo Electrónico</label>
+                    <input type="email" id="email" name="visitor_email" placeholder="Ingrese email" required>
+                </div>
+                <div class="elem-group">
+                    <label for="again-password">Confirmar Contraseña</label>
+                    <input type="password" id="again-password" name="again-password"
+                    placeholder="Ingrese contraseña de nuevo" required pattern=[A-Za-z0-9\s]{8,20}>
+                </div>    
+            </fieldset>           
+        </form>
+    </Section>
+ 
+    <Section>
+        <p class="emprendedor"> DATOS DEL EMPRENDIMIENTO</p>
+        <div class="contenedors">
+            <ul class="ul">
+                <li class="li">Información</li>
+                <li class="li">Descripción</li>
+                <li class="li">Misión</li>
+                <li class="li">Visión</li>
+                <li class="li">Datos</li>
+            </ul>
+            <div class="subcontenedor">
+                <div class="bloque">
+                    <div class="elem-group">
+                        <label for="name-organization">Nombres de la organización</label>
+                        <input type="text" id="name_organization" name="visitor_name_organization"
+                            placeholder="Ingrese el Nombre de la organización" pattern=[A-Z\sa-z]{3,20} required>
+                    </div>
+                    <div class="elem-group">
+                        <label for="id_organization">NIT</label>
+                        <input type="text" id="number" name="visitor_idorganization" placeholder="Ingrese el NIT"
+                            pattern=[A-Z\sa-z]{3,10} required>
+                    </div>
+                    <div class="elem-group">
+                        <label for="avatar">RUT</label>
+                        <input type="file" id="avatar" name="avatar" accept="image/png, image/jpeg">
+                    </div>
+                    <div class="elem-group">
+                        <label for="Emprendimiento-realizado">Emprendimiento realizado por</label>
+                        <select id="marital-status" name="marital-status" required>
+                            <option value="">Selecciona</option>
+                            <option value="Población Víctimas de la Violencia">Población Víctimas de la Violencia
+                            </option>
+                            <option value="Población con Discapacidad">Población con Discapacidad</option>
+                            <option value="Población Indígena">Población Indígena</option>
+                            <option value="Población Jóvenes Vulnerables">Población Jóvenes Vulnerables</option>
+                            <option value="Población Mujer Cabeza de Hogar">Población Mujer Cabeza de Hogar</option>
+                            <option value="Población Perteneciente A la Tercera Edad">Población Perteneciente A la
+                                Tercera Edad</option>
+                            <option value="Población Víctimas de trata de personassingle">Población Víctimas de trata de
+                                personas</option>
+                            <option value="Población en Proceso de Reincorporación y Reintegración">Población en Proceso
+                                de Reincorporación y Reintegración</option>
+                            <option value="Población Afrocolombiana">Población Afrocolombiana</option>
+                            <option value="Población LGBTIQA+">Población LGBTIQA+</option>
+                            <option value="Otro">Otro</option>
+                            <option value="Ninguna">Ninguna</option>
+                        </select>
+                    </div>
+                    <div class="elem-group">
+                        <label for="categoria">Categoria</label>
+                        <select id="categoria" name="marital-status" required>
+                            <option value="">Selecciona un Estado</option>
+                            <option value="">Soltero</option>
+                            <option value="">Casado</option>
+                            <option value="">Divorciado</option>
+                            <option value="">Viudo</option>
+                            <option value="">Separado</option>
+                            <option value="">Unión Libre</option>
+                            <option value="">Soltero</option>
+                            <option value="">Casado</option>
+                            <option value="">Divorciado</option>
+                            <option value="">Viudo</option>
+                            <option value="">Separado</option>
+                            <option value="">Unión Libre</option>
+                            <option value="">Otro</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="bloque">
+                    <input type="text" id="Descripcion" name="Descripcion" placeholder="Descripción de la organización"
+                        required>
+                </div>
+                <div class="bloque">
+                    <input type="text" id="mision" name="mision" placeholder="Misión de la organización" required>
+                </div>
+                <div class="bloque">
+                    <textarea name="vision" placeholder="Visión de la organización" maxlength="500" cols="68" rows="7"></textarea>
+                </div>
+
+                <div class="bloque">
+                    <div class="elem-group">
+                        <label for="adress">Direccion</label>
+                        <input type="text" id="adress" name="visitor_adress" placeholder="ingrese su dirección"
+                            pattern=[A-Z\sa-z]{3,20} required>
+                    </div>
+                    <div class="elem-group">
+                        <label for="celphone">Numero de telefono</label>
+                        <input type="text" id="celphone" name="visitor_celphone" placeholder="ingrese su numero"
+                            pattern=[A-Z\sa-z]{3,20} required>
+                    </div>
+                    <div class="elem-group">
+                        <label for="facebook">Facebook</label>
+                        <input type="text" id="facebook" name="visitor_facebook" placeholder="enlace a tu facebook"
+                            pattern=[A-Z\sa-z]{3,20} required>
+                    </div>
+                    <div class="elem-group">
+                        <label for="surname">Instagram</label>
+                        <input type="text" id="instagram" name="visitor_instagram" placeholder="enlace a tu instagram"
+                            pattern=[A-Z\sa-z]{3,20} required>
+                    <div class="elem-group">
+                        <label for="linkedIn">LinkedIn</label>
+                        <input type="text" id="LinkedIn" name="visitor_LinkedIn" placeholder="enlace a tu LinkedIn"
+                                pattern=[A-Z\sa-z]{3,20} required>
+                    </div>
+                    <div class="elem-group">
+                        <label for="otra_red">Otra</label>
+                        <input type="text" id="Redes" name="visitor_redes"  placeholder="enlace a tu instagram" pattern=[A-Z\sa-z]{3,20} required>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="contenedors">
+            <button type="save">Guardar</button>
+        </div>
+    </Section>
+       
+    <footer>
+        <div class="contenedor-footer">
+            <div class="box-footer">
+                <h2>Sobre Nosotros</h2>
+            </div>
+            <div class="box-footer">
+                <h2>Terminos y Condiciones</h2>
+            </div>
+            <div class="box-footer">
+                <h2>Contáctenos<a href="#"><i class="fa-brands fa-whatsapp"></i>Whatsapp</a></h2>
+            </div>
+            <div class="box-footer">
+                <h2>Accesibilidad</h2>
+            </div>
+        </div>
+        <div class="box-copyrihgt">
+            <hr>
+            <p><b>Copyright 2022</b> PILAR Todos los derechos Reservados.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
+

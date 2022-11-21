@@ -1,0 +1,320 @@
+img {
+    width: 150px;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+.arriba {
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 200px;
+    font-family: fantasy;
+    
+}
+
+.arriba a {
+    color: darkblue;
+}
+
+
+
+.register-a {
+
+    float: right;
+    font-family: fantasy;
+   
+    margin-top: 5px;
+    
+}
+
+.btn-a {
+
+    float: left;
+    margin-left: 200px;
+    
+
+}
+
+/*  nav interfaz 2*/
+
+.register {
+
+    float: right;
+    font-family: fantasy;
+    margin-right: 10px;
+   
+    
+}
+
+.register a {
+
+    color: darkblue;
+}
+
+.btn {
+
+    float: left;
+    margin-top: 10px;
+    margin-left: 200px;
+
+}
+
+.btn a {
+    color: darkblue;
+}
+
+
+a {
+    text-decoration: none;
+    padding: 10px;
+    font-family: fantasy;
+    color: darkblue;
+}
+
+a:hover {
+
+    color: brown;
+}
+
+.title-logo {
+
+    margin-left: 70px;
+    color: darkgreen
+}
+
+header {
+
+    background-color:#f9f2ea; 
+    padding: 40px;
+    margin-top: 10px; 
+  
+   
+}
+
+body {
+
+    background-color: #D9AFD9;
+    background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+}
+
+.foto-l {
+
+    margin-top: 10px;
+    width: 200px;
+    margin-left: 55px;
+}
+
+
+
+.cuadro{
+
+    
+    width: 20%;
+    background-color: white;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 30px;
+   
+
+
+}
+
+.cuadrod{
+
+    
+    width: 20%;
+    background-color: lightblue;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 30px;
+    
+
+
+}
+
+.cuadrod p {
+
+    color: white;
+}
+
+.cuadro-a {
+
+    width: 95%;
+    display: flex;
+    height: 200px;
+    background-color: white;
+    padding: 5px;
+    
+    border-radius: 10px;
+    margin: 30px;
+}
+
+.cuadro-a-a {
+
+    width: 95%;
+    display: flex;
+    background-color: white;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 30px;
+    height: 80px;
+}
+
+.cuadro-a-a-a {
+
+    width: 50%;
+    height: 20px;
+
+}
+
+.cuadro p{
+
+    display: flex;
+    padding-left: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 5px;
+    color: darkblue;
+   
+}
+
+.cuadros {
+
+    margin-top:10px;
+    height: 10px;
+}
+
+
+
+
+/*ensayo*/
+
+ 
+.services {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+.fondo {
+
+    display: flex;
+    width: 80%;
+    height: 500px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 5px;
+}
+
+/* About */
+
+.about {
+    text-align: center;
+}
+
+.subtitle {
+    color: var(--color-title);
+    font-size: 2rem;
+    margin-bottom: 25px;
+}
+
+
+.about__paragraph {
+    line-height: 1.7;
+}
+
+.about__main {
+    padding-top: 80px;
+    display: grid;
+    width: 90%;
+    margin: 0 auto;
+    gap: 1em;
+    overflow: hidden;
+    grid-template-columns: repeat(auto-fit, minmax(260px, auto));
+}
+
+
+.about__icons {
+    display: grid;
+    gap: 1em;
+    justify-items: center;
+    width: 260px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.about__icon {
+    width: 200px;
+}
+
+
+
+/* footer */
+    
+footer {
+    background-color: #141526;
+    padding: 60px 0 30px 0;
+    margin-top:  30px;
+    overflow: hidden;
+}
+
+footer a:hover {
+
+    color: brown;
+}
+
+.contenedor-footer {
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ccc;
+}
+
+.content-foo {
+    text-align: center;
+}
+
+.cuadroe {
+
+    width: 20%;
+    background-color: white;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 30px;
+    padding: 20px;
+    margin-left: 210px;
+    text-align: center;
+    
+}
+
+
+.cuadroe p {
+    color: darkblue;
+}
+
+
+
+
+.content-foo h4 {
+    color: #fff;
+    border-bottom: 3px solid #af20d3;
+    padding-bottom: 5px;
+    margin-bottom: 10;
+
+
+}
+
+.content-foo p {
+    color: #fff;
+}
+
+.titulo-final {
+    text-align: center;
+    font-size: 24px;
+    margin: 50px 0 0 0;
+    color: #fff;
+}

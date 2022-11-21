@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+    width: 100%;
+    height: 120px;
+    background-color: rgb(247, 240, 205);
+    
+}
+
+.barra {
+    max-width: 1200px;
+    flex-wrap: wrap;
+
+}
+
+.logo{
+    padding: 7px 80px;
+    float: left;
+    line-height: 200px;   
+}
+
+
+.navuno {
+    text-decoration: none;
+    
+    display: flex;
+    padding: 25px 10px;
+    
+}
+
+
+.navuno a{
+    text-decoration: none;
+    border: 1px solid rgb(37, 94, 37);
+    background: white;
+    color: rgb(37, 94, 37);
+    border-radius: 5px;
+    padding: 10px 30px;
+    height: 6px;
+    line-height: 6px;
+    margin: 6px 0;
+}
+
+.navuno a:hover{
+    background: transparent;
+}
+
+
+.buscador input[type="text"]{
+    width: 300px;
+    height: 25px;
+    border-radius: 9px;
+    border: 1px solid rgb(37, 94, 37);
+ }
+
+.buscador {
+    margin: 8px;
+    padding: 0 10px;
+    
+}
+
+.navdos {
+    display: flex;
+    margin: -20px 0;
+}
+.navdos a{
+    text-decoration: none;
+    border: 1px solid rgb(37, 94, 37);
+    background: white;
+    color: rgb(37, 94, 37);
+    border-radius: 3px;
+    padding: 3px;
+    
+}
+
+.nav-menu{
+    margin: 0 10px;
+}
+.nav-menu:hover{
+    background: transparent;
+}
+
+.nav-men{
+    margin-left: 20px;
+    text-decoration: none;
+    border: 1px solid rgb(37, 94, 37);
+    background: white;
+    color: rgb(37, 94, 37);
+    border-radius: 3px;
+    padding: 3px;
+}
+.nav-men:hover{
+    background: transparent;
+}
+
+
+.navdos1{
+    
+    text-align: right;
+    margin-right: 20px;
+}
+
+
+.Table1{
+    border: 3px solid rgb(37, 94, 37);
+    color: rgb(37, 94, 37);
+    width: 150px;
+    height: 150px;
+    margin-top: 30px;
+    
+    cursor: pointer;
+    transition: all 300ms ease;
+
+}
+.Table1:hover{
+    background: rgb(247, 240, 205);
+    transform: scale(1.1);
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0, 0.5);
+}
+
+.Log2{
+   font-size: 70px;
+}
+
+.Emp2{
+    text-decoration: none;
+    border: 1px solid rgb(37, 94, 37);
+    background: white;
+    color: rgb(37, 94, 37);
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-left: 80px;
+    transition: all 300ms ease;
+
+}
+.Emp2:hover{
+    background: rgb(247, 240, 205);
+    transform: scale(1.1);
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0, 0.5);
+}
+.Empre{
+    width: 800px;
+    height: 200px;
+    margin-left: 80px;
+    margin-top: 7px;
+    margin-bottom: 30px;
+    border: 3px solid rgb(37, 94, 37);
+}
+
+.Emp4{
+    text-decoration: none;
+    border: 1px solid rgb(37, 94, 37);
+    background: white;
+    color: rgb(37, 94, 37);
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-left: 80px;
+    transition: all 300ms ease;
+
+}
+.Emp4:hover{
+    background: rgb(247, 240, 205);
+    transform: scale(1.1);
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0, 0.5);
+}
+
+.Emp3{
+    text-decoration: none;
+    border: 1px solid rgb(37, 94, 37);
+    background: white;
+    color: rgb(37, 94, 37);
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-left: 10px;
+    transition: all 300ms ease;
+
+}
+.Emp3:hover{
+    background: rgb(247, 240, 205);
+    transform: scale(1.1);
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0, 0.5);
+}
+
+.Empre2{
+    width: 800px;
+    height: 200px;
+    margin-left: 80px;
+    margin-top: 7px;
+    margin-bottom: 30px;
+    border: 3px solid rgb(37, 94, 37);
+}
+
+.Emp5{
+    text-decoration: none;
+    border: 1px solid rgb(37, 94, 37);
+    background: white;
+    color: rgb(37, 94, 37);
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-left: 80px;
+    transition: all 300ms ease;
+
+}
+.Emp5:hover{
+    background: rgb(247, 240, 205);
+    transform: scale(1.1);
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0, 0.5);
+}
+.Empre3{
+    width: 805px;
+    height: 300px;
+    margin-left: 80px;
+    margin-top: 7px;
+    margin-bottom: 30px;
+    border: 3px solid rgb(37, 94, 37);
+}
+
+.Empre4{
+    width: 805px;
+    height: 100px;
+    margin-left: 80px;
+    margin-top: 7px;
+    margin-bottom: 30px;
+    border: 3px solid rgb(37, 94, 37);
+}
+
+.pie-pagina {
+    background-color: rgb(247, 240, 205);
+    width: 100%;
+    height: 130px;
+    bottom: 0;
+    position: static;
+    text-align: center;
+}
+
+.pie-pagina .pie a{
+
+    text-decoration: none;
+    color: rgb(37, 94, 37);
+    background-color: white;
+    border: 1px solid rgb(37, 94, 37);
+    border-radius: 3px;
+    margin: 0 50px;
+    padding: 3px 7px;
+    line-height: 130px;
+}
+.pie-pagina a:hover{
+    background: transparent;
+}

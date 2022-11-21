@@ -1,0 +1,254 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.container{
+    width: 100%;
+    height: 50%;
+    grid-template-columns: auto;
+    background: #fffb7d77 ;
+
+}
+
+
+.header{
+    display: flex;
+    width: 95%;
+    margin-left: 30px;
+    justify-content: space-between;
+
+}
+
+.logo h1{
+    color: rgb(16, 155, 16);
+    text-transform: capitalize;
+
+}
+.logo span{
+    color: rgb(23, 228, 23);
+}
+
+.botones{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+} 
+
+.botones h3{
+    font-size: 16px;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid green;
+    color: green;
+    border-radius: 20px;
+    
+}
+
+.botones input{
+    width: 80%;
+    height: 35px;
+    margin: 10px;
+    border-radius: 10px;
+    border: none;
+    color: black;
+    font-size: 16px;
+    border: 1px solid green;
+}
+
+.botones label{
+    font-size: 16px;
+    display: flex;
+    margin: 2px;
+    height: 40px;
+    width: 95px;
+    text-align: center;
+    border: 1px solid green;
+    border-radius: 10px;
+}
+
+.botones label a{
+    color: black;
+   
+}
+
+.op{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin: 30px;
+}
+
+.op ul{
+    display: flex;
+    gap: 20px;
+}
+
+.op ul a{
+    color: green;
+    font-size: 18px;
+    text-transform: capitalize;
+    border: 1px solid green;
+}
+
+
+/* contenido de main*/ 
+
+.main_principal{
+    display: flex;
+    width: 100%;
+    height: auto;
+
+}
+
+
+.main_contenido{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    margin: 30px;
+    gap: 30px;
+}
+
+.add-main{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.caja_logo{
+    border: 2px solid green;
+    width: 120px;
+    height: 110px; 
+}
+
+.caja_logo h3{
+    text-transform: capitalize;
+    text-align: center;
+    color: black;
+    font-size: 16px;
+}
+
+.caja_logo span{
+    justify-items: center;
+    font-size: 60px;
+    margin-left: 25px;
+}
+
+.add-main .caja_texto h3{
+    font-size: 16px;
+    border: 1px solid green;
+    color: black;
+    width: 200px;
+}
+
+.add-main .caja_texto input{
+    width: 100%;
+    height: 100px;
+    font-size: 18px;
+    border: 1px solid green;
+}
+
+
+.add-main-1 .caja_op_1{
+    display: flex;
+    gap: 10px;
+    
+
+}
+.add-main-1 .caja_op_1 h3{
+    font-size: 16px;
+    border: 1px solid green;
+    color: black;
+    text-transform: capitalize;
+}
+
+.add-main-1 .btn_texto input{
+    width: 100%;
+    height: 100px;
+    font-size: 18px;
+    border: 1px solid green;
+}
+
+.add-main-2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.add-main-2  h3{
+    font-size: 16px;
+    border: 1px solid green;
+    color: black;
+    width: 200px;
+}
+
+.add-main-2 .caja_2{
+    border: 1px solid green;
+    height: 150px;
+    padding: 15px;
+}
+
+.add-main-2 .caja_2 div{
+    border: 1px solid green;
+    width: 120px;
+    height: 110px; 
+    margin-left: 10px;
+
+}
+
+
+.add-main-2 .caja_2 div h3{
+    border: none;
+    text-transform: capitalize;
+    font-size: 16px;
+    color: black;
+    border-top: 10px;
+    margin-left: 9px;
+
+}
+
+.add-main-2 .caja_2 span{
+    justify-items: center;
+    font-size: 60px;
+    margin-left: 25px;
+}
+
+.add-main-2 .caja_3 h3{
+    font-size: 16px;
+    border: 1px solid green;
+    text-transform: capitalize;
+}
+
+.add-main-2 .caja_3 input{
+    width: 100%;
+    height: 50px;
+    font-size: 18px;
+}
+
+
+/* pie de pagina*/
+
+.pie_pag{
+    display: flex;
+    width: 95%;
+    gap: 90px;
+    padding: 20px;
+    margin-left: 30px;
+    justify-content: space-between;
+    justify-content: center;
+    
+}
+.pie_pag a{
+    font-size: 16px;
+    border: 1px solid green;
+    color: black;
+    width: 200px;
+
+}

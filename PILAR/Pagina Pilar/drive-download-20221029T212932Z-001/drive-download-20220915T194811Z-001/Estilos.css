@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    background: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    min-height: 100vh;
+    
+}
+
+header{
+    width: 100%;
+    height: 120px;
+    background-color: #E8F5D3;
+    
+}
+
+.barra {
+    max-width: 1000px;
+    padding: 0 10px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.logo{
+    padding: 0 80px;
+    float: left;
+    line-height: 200px;   
+}
+
+
+.navuno {
+    text-decoration: none;
+    
+    display: flex;
+    padding: 25px 10px;
+    
+}
+
+
+.navuno a{
+    text-decoration: none;
+    border: 1px solid rgb(37, 94, 37);
+    background: white;
+    color: rgb(37, 94, 37);
+    border-radius: 5px;
+    padding: 10px 30px;
+    height: 6px;
+    line-height: 6px;
+    margin: 6px 0;
+    
+    
+}
+
+
+.buscador input[type="text"]{
+    width: 300px;
+    height: 25px;
+    border-radius: 9px;
+    border: 1px solid rgb(37, 94, 37);
+ }
+
+.buscador {
+    margin: 8px;
+    padding: 0 10px;
+    
+}
+
+.barra .btn-buscar{
+    background-color: white;
+    color: rgb(37, 94, 37);
+    border: 1px solid #5A9272;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    float: right;
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 3px 7px;
+    margin: 0 20px;
+
+}
+.barra .pc-texto{
+    border: 1px solid rgb(37, 94, 37);
+    border-radius: 10px}
+
+
+table{  
+    border: solid rgb(37, 94, 37);
+    color: rgb(37, 94, 37);
+    width: 250px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%
+    
+}
+table1{ margin:auto;
+    border: solid rgb(37, 94, 37);
+    color: rgb(37, 94, 37);
+    width: 1100px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%
+}
+
+
+.navdos {
+    display: flex;
+    margin: -20px 0;
+}
+.navdos1 {
+
+    display: flex;
+    margin-left: 200px;
+    
+}
+.navdos2 {
+
+    display: flex;
+    margin-left: 10px;
+    
+}
+.nav-men1{
+    margin-left: 20px;
+}
+
+.nav-menu{
+    margin: 0 10px;
+}
+
+.nav-menu-a{
+    margin: 0 400px;
+}
+
+
+.navdos a{
+    text-decoration: none;
+    border: 1px solid rgb(37, 94, 37);
+    background: white;
+    color: rgb(37, 94, 37);
+    border-radius: 3px;
+    padding: 3px;
+    
+}
+
+
+/* INICIO SESION************************************** */
+
+.formulario {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 270px;
+    background: #E8F5D3;
+    border: 3px solid #518160;
+    border-radius: 28px;
+}
+
+.formulario h4{
+    text-align: center;
+    padding: 20px 0 20px 0;
+    color: #518160;
+}
+
+.formulario form{
+    padding: 0 40px;
+}
+
+
+.username i{
+    position: absolute;
+
+}
+.contrasena i{
+    position: absolute;
+}
+
+.username, .contrasena{
+    width: 97%;
+    font-size: 15px;
+    border: 1px solid rgb(29, 56, 29);
+    margin-bottom: 20px;
+    border-radius: 5px;
+    outline: 0px;
+}
+
+
+.icon {
+	line-height: 5px;
+    right: 18px;
+    margin: 5px 37px;
+    color: #518160;
+}
+
+.campo {
+    width: 95%;
+    padding: 7px 8px;
+    text-align: left;
+    height: 5px;
+    font-size: 15px;
+}
+
+.formulario a{
+    text-decoration: none;
+    color: #518160;
+
+}
+.formulario .recordar, .registrar{
+    text-decoration: none;
+    display: inline-flex;
+    margin: 4px 20px;
+}
+
+.formulario .btn-iniciar{
+    background: white;
+    border: 2px solid #518160;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 130px;
+    height: 25px;
+    outline: none;
+    color: rgb(35, 73, 35);
+    margin: 40px 150px;
+    
+}
+/* **************************** INICIO SESION************************************** */
+
+
+/* **************************** PIE DE PAGINA************************************** */
+
+.pie-pagina {
+    background-color: #dce7cd;
+    width: 100%;
+    height: 130px;
+    bottom: 0;
+    position: fixed;
+    text-align: center;
+}
+
+.pie-pagina .pie a{
+
+    text-decoration: none;
+    color: #518160;
+    background-color: white;
+    border: 1px solid #518160;
+    border-radius: 3px;
+    margin: 0 50px;
+    padding: 3px 7px;
+    line-height: 130px;
+}
+
+/* **************************** PIE DE PAGINA************************************** */
